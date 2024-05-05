@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<HBox fx:id="box" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="200.0" spacing="15.0" styleClass="round-layout" stylesheets="@../../../css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dashnoardd.CardController">
+   <children>
+      <VBox fx:id="box" prefHeight="254.0" prefWidth="202.0" style="-fx-background-radius: 15;" styleClass="shadow" stylesheets="@../../../css/styles.css">
+         <children>
+            <ImageView fx:id="userimage" fitHeight="92.0" fitWidth="171.0" pickOnBounds="true" preserveRatio="true" styleClass="round-layout">
+               <image>
+                  <Image url="@20160727_200829_hdr1600x1200.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets left="15.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label fx:id="namedesc" alignment="TOP_LEFT" prefHeight="87.0" prefWidth="178.0" text="Name Name ">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets left="15.0" />
+               </opaqueInsets>
+            </Label>
+            <ImageView fitHeight="24.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngfind.com-friends-png-1004248.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="15.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</HBox>

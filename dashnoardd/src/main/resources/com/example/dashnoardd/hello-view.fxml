@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dashnoardd.CardController">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="200.0" spacing="20.0" styleClass="white-background" stylesheets="@../../../../java/css/styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="218.0" text="My Account" textFill="#1b1515">
+               <font>
+                  <Font name="Eras Demi ITC" size="36.0" />
+               </font>
+            </Label>
+            <Separator maxHeight="-Infinity" orientation="VERTICAL" prefHeight="34.0" prefWidth="4.0" />
+            <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="44.0" prefWidth="330.0" styleClass="round-layout" stylesheets="@../../../../java/css/styles.css">
+               <children>
+                  <TextField prefHeight="44.0" prefWidth="312.0" promptText="Search" styleClass="transparent" stylesheets="@../../../../java/css/styles.css">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../pics/searchbar.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Pane prefHeight="60.0" prefWidth="299.0" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="282.0">
+               <children>
+                  <Label prefHeight="59.0" prefWidth="172.0" text="Name Name">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../pics/pngegg.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="740.0" prefWidth="258.0" spacing="10.0" styleClass="white-background" stylesheets="@../../../../java/css/styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="149.0" prefWidth="258.0">
+               <children>
+                  <Label prefHeight="43.0" prefWidth="228.0" text="Connect">
+                     <font>
+                        <Font name="Berlin Sans FB" size="33.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="0.0" prefWidth="258.0" spacing="15.0">
+                     <children>
+                        <Label prefHeight="8.0" prefWidth="85.0">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="64.0" prefWidth="258.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@../../../../java/css/styles.css">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../pics/feedpng.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="64.0" prefWidth="171.0" text="Feed">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="3.0" prefWidth="245.0">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="40.0" right="40.0" />
+                     </padding></Separator>
+               </children>
+            </VBox>
+            <VBox prefHeight="333.0" prefWidth="258.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="0.0" prefWidth="258.0" spacing="15.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="33.0" prefWidth="108.0" spacing="15.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="71.0" prefWidth="258.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@../../../../java/css/styles.css">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../pics/friends-8-512png.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="43.0" prefWidth="171.0" text="Friends">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="20.0" prefWidth="249.0">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="40.0" right="40.0" />
+                     </padding>
+                  </Separator>
+                  <HBox alignment="CENTER" prefHeight="71.0" prefWidth="258.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@../../../../java/css/styles.css">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../pics/chat.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="91.0" prefWidth="171.0" text="Chat">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="20.0" prefWidth="281.0">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="40.0" right="40.0" />
+                     </padding>
+                  </Separator>
+                  <HBox alignment="CENTER" prefHeight="66.0" prefWidth="258.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="121.0" style="-fx-background-color: #FF5056;" stylesheets="@../../../../java/css/styles.css" text="Log Out" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB" size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="41.0" prefWidth="242.0" text="Suggested Friends/posts">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <ScrollPane prefHeight="250.0" prefWidth="200.0" styleClass="transparent" stylesheets="@../../../../java/css/styles.css">
+               <content>
+                  <HBox prefHeight="228.0" prefWidth="1008.0" styleClass="transparent" stylesheets="@../../../../java/css/styles.css" />
+               </content>
+            </ScrollPane>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>
